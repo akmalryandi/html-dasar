@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<body>
+    <br><button onclick="window.location.href='../index.html'">Kembali</button>
+    <h1>Form Pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h1>
+
+    <form method="post">
+    
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required><br>
+        
+        <br><label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Email Aktif" required><br>
+        
+        <br><label for="nomorhp">No HP</label><br>
+        <input type="number" id="nomorhp" name="nomorhp" placeholder="No HP Aktif" required><br>
+        
+        <br><label for="jk">Jenis Kelamin</label><br>
+        <input type="radio" id="lk" name="jk" required>Laki-laki<br>
+        <input type="radio" id="pr" name="jk" required>Perempuan<br>
+
+        <br><label for="prodi">Prodi</label><br>
+        <select name="prodi" id="prodi">
+            <option value="pilih">Pilih</option>
+            <option value="inf">Teknik Infomatika</option>
+            <option value="kedokteran">Kedokteran</option>
+            <option value="manajemen">Manajemen</option>
+        </select><br>
+
+        <br><label for="hobi">Hobi</label><br>
+        <input type="checkbox" id="baca" name="hobi">Membaca<br>
+        <input type="checkbox" id="tulis" name="hobi">Menulis<br>
+        <input type="checkbox" id="nyanyi" name="hobi">Menyanyi<br>
+        <input type="checkbox" id="olahraga" name="hobi">Olahraga<br>
+
+        <br><label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="4" placeholder="Alamat Lengkap" required></textarea><br>
+
+        <br><label for="foto">Foto Diri</label><br>
+        <input type="file" id="foto" name="foto" required><br>
+
+        <br><button type="submit">Daftar</button>
+    </form>
+
+
+        
+
+</body>
+</html>
