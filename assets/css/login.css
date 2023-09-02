@@ -36,7 +36,7 @@ input {
     padding: 8px;
     margin: 2px 0;
     border: 1px solid #746c6c;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
 button {
@@ -51,7 +51,11 @@ button {
 }
 
 .login-bawah-kanan{
-    margin: auto;
+    margin-top: 25px;
+}
+
+video{
+    border-radius: 10px;
 }
 
 p{
