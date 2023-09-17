@@ -18,7 +18,7 @@
 }
 
 .container{
-    background-color: var(--coklat);
+    background-color: var(--putih);
     padding: 15px 9%;
     padding-bottom: 100px;
 }
@@ -26,8 +26,8 @@
 .container .heading{
     text-align: center;
     padding-bottom: 30px;
-    color: var(--putih);
-    text-shadow: 0 5px 10px var(--hitam);
+    color: var(--hitam);
+    text-shadow: 0 10px 23px var(--abuGelap);
     font-size: 40px;
 }
 
@@ -40,7 +40,6 @@
 .container .box-container .box{
     box-shadow: 0 5px 10px var(--hitam);
     background: var(--putih);
-    border-radius: 5px;
     text-align: center;
     padding: 30px 20px;
 }
@@ -68,7 +67,6 @@
     background: var(--abuGelap);
     color: var(--putih);
     font-size: 17px;
-    border-radius: 5px;
     padding: 8px 25px;
 }
 
