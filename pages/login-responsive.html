@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/login-responsive.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Silahkan Masukkan informasi akun Anda untuk mengakses dashboard</h1>
+        <form method="post">
+            <div class="login-atas">
+                <div class="login-atas-atas">
+                    <img class="arkatama" src="../assets/images/arkatama.jpg" alt="gambar" width="100" />
+                </div>
+                <div class="login-atas-bawah">
+                    <p>Wajib diisi</p>
+                </div>
+            </div>
+            <div class="login-bawah">
+                <div class="login-bawah-kiri">
+                    <label for="username">Username</label><br />
+                    <input type="text" id="username" name="username" placeholder="Masukan username" required /><br />
+
+                    <br /><label for="password">Password</label><br />
+                    <input type="password" id="password" name="password" placeholder="Masukan password"
+                        required /><br />
+
+                    <br /><img src="../assets/images/gambar.png" alt="gambar" /><br />
+                    <label for="captcha">Captcha</label><br />
+                    <input type="text" id="captcha" name="captcha" placeholder="Masukan captcha" required /><br />
+
+                    <br /><button type="submit">Login</button>
+                    <button onclick="window.location.href='../index.html'">
+                        Kembali
+                    </button>
+                </div>
+                <div class="login-bawah-kanan">
+                    <video controls autoplay muted width="350">
+                        <source src="../assets/video/profil.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
